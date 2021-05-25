@@ -1,5 +1,5 @@
 const express = require('express')
-const port = 8081;
+const port = process.env.PORT;
 
 function init(todoPsqlRepo){
     const app = express()
